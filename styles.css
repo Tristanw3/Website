@@ -1,3 +1,25 @@
-h1	{
-	color: green;
+body	{
+	background-color: #848c8e;
 }
+
+nav	{
+	background-color: #435058;
+}
+
+.container	{
+	max-width: 90%;
+}
+
+#spacer	{
+	padding-bottom: 10px;
+}
+
+.card	{
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+
+/*.square:hover	{
+	border: 5px solid green;
+}*/
