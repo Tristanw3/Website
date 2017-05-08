@@ -18,6 +18,19 @@ nav	{
 	border-radius: 10px 10px 10px 10px;
 }
 
+a img 	{
+	height: 296.617px;
+}
+
+.card .card-image .card-title	{
+	padding-bottom: 1px;
+	padding-left: 15px;
+}
+
+/*.card:hover	{
+	border: red solid 1px;
+}*/
+
 
 
 /*.square:hover	{
