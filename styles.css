@@ -1,53 +1,32 @@
 body	{
 	background-color: #848c8e;
+	font-family: 'Raleway', sans-serif;
 }
 
-nav	{
-	background-color: #435058;
-}
-
-
-.container	{
-	max-width: 90%;
-}
-
-#spacer	{
-	padding-bottom: 10px;
-}
-
-.card	{
-	opacity: 0.5;
-	filter: grayscale(30%);
-	border-radius: 10px 10px 10px 10px;
-}
-
-.card:hover	{
-	opacity: 1;
-	transition: 0.5s;
-	filter: none;
-}
-
-.card:hover .btn-floating	{
-	transform: scale(1.8);
-	transition: transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-img 	{
-	height: 296.617px;
+.firstBackground {
+  height: 100vh;
+  background-image: url("office.jpeg");
+  background-color: #726E6D;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	padding-top: 380px;
+	padding-left: 20px;
+	display: flex;
 
 }
 
-.card .card-image .card-title	{
-	padding-bottom: 1px;
-	padding-left: 15px;
+h1 {
+	opacity: 0;
+  transform: translateX(-12px);
+  animation: 0.7s slidefade 0s forwards;
 }
 
-/*.card:hover	{
-	border: red solid 1px;
-}*/
-
-
-
-/*.square:hover	{
-	border: 5px solid green;
-}*/
+@keyframes slidefade {
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
